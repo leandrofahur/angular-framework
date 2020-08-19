@@ -1,1 +1,12 @@
-<p>profile-list works!</p>
+<div class="container">
+  <div class="profile-img">
+    <img src="https://randomuser.me/api/portraits/men/85.jpg" alt="" />
+    <button id="previous" type="submit">Previous</button>
+    <button id="next" type="submit">Next</button>
+  </div>
+  <div class="profile-info" *ngFor="let profile of profiles">
+    <p>Name: {{ profile.name }}</p>
+    <p>Gender: {{ profile.gender }}</p>
+    <p>Country: {{ profile.country }}</p>
+  </div>
+</div>

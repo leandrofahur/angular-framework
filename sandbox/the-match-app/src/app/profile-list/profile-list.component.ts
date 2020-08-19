@@ -14,18 +14,18 @@ export class ProfileListComponent implements OnInit {
       'New Zeland',
       'https://randomuser.me/api/portraits/men/36.jpg'
     ),
-    // new Profile(
-    //   'Byron',
-    //   'male',
-    //   'Australia',
-    //   'https://randomuser.me/api/portraits/men/85.jpg'
-    // ),
-    // new Profile(
-    //   'Isla',
-    //   'female',
-    //   'Australia',
-    //   'https://randomuser.me/api/portraits/women/38.jpg'
-    // ),
+    new Profile(
+      'Byron',
+      'male',
+      'Australia',
+      'https://randomuser.me/api/portraits/men/85.jpg'
+    ),
+    new Profile(
+      'Isla',
+      'female',
+      'Australia',
+      'https://randomuser.me/api/portraits/women/38.jpg'
+    ),
   ];
 
   constructor() {}

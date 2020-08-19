@@ -1,5 +1,5 @@
 <div class="container">
-  <div class="profile-info" *ngFor="let profile of profiles">
+  <div class="profile-info" *ngFor="let profile of profiles; let i = index">
     <img src="{{ profile.imagePath }}" alt="" />
     <div>
       <p>Name: {{ profile.name }}</p>

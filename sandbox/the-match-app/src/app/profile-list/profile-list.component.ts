@@ -30,5 +30,13 @@ export class ProfileListComponent implements OnInit {
 
   constructor() {}
 
+  onNext() {
+    console.log('next...');
+  }
+
+  onPrevious() {
+    console.log('previous...');
+  }
+
   ngOnInit(): void {}
 }

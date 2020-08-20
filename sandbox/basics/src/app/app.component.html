@@ -4,7 +4,7 @@
       <br />
       <app-profile (profile)="onProfileAdded($event)"></app-profile>
       <br />
-      <app-profile-list></app-profile-list>
+      <app-profile-list *ngFor="let p of profiles" [pi]="p"></app-profile-list>
     </div>
   </div>
 </div>

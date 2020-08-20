@@ -10,6 +10,6 @@ export class AppComponent {
 
   onProfileAdded(data: { name: string; email: string }) {
     this.profiles.push(data);
-    console.log(data);
+    // console.log(data);
   }
 }
